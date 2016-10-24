@@ -6,7 +6,7 @@
 /*HEADER****************************************************************************************************************/
 body, html {
   font-family: 'Inconsolata', monospace;
-  background-image: url('./wg_various_paper_textures_9.jpg');
+  background-image: url(/Users/Dev./Desktop/Git/Portfolio/public/wg_various_paper_textures_9.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -32,7 +32,7 @@ header nav {
 }
 
 #big-banner {
-  background: url('Coffee.jpeg');
+  background: url(/Users/Dev./Desktop/Git/Portfolio/public/Coffee.jpeg);
   background-size: cover;
   height: 1000px;
   background-position: center;
