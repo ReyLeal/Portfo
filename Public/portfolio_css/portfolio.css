@@ -6,7 +6,7 @@
 /*HEADER****************************************************************************************************************/
 body, html {
   font-family: 'Inconsolata', monospace;
-  background-image: url('/Users/Dev./Desktop/Git/Portfolio/Public/wg_various_paper_textures_9.jpg');
+  background-image: url('/wg_various_paper_textures_9.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -32,7 +32,7 @@ header nav {
 }
 
 #big-banner {
-  background: url('/Users/Dev./Desktop/Git/Portfolio/Public/Coffee.jpeg');
+  background: url('/Coffee.jpeg');
   background-size: cover;
   height: 1000px;
   background-position: center;
@@ -174,7 +174,6 @@ header nav {
 #project-gui {
   color: black;
 
-
 }
 /*FOOTER****************************************************************************************************************/
 footer {
@@ -183,21 +182,18 @@ footer {
   clear: both;
   border-top: black solid;
   visibility: 75%;
+  display: flex;
+  flex-direction: column;
+    text-align: center;
 }
 #contact-me {
   padding-top: 2rem;
-  font-size: 140%;
-  text-align: center;
+  font-size: 160%;
 }
 #phone {
   font-size: 130%;
-  float: left;
-  padding: 3em;
-  margin-left:3em;
 }
 #email {
   font-size: 130%;
-  float: right;
-  padding: 3em;
-  margin-right: 3em;
+  padding-top: 2rem;
 }
