@@ -1,0 +1,203 @@
+* {
+  /*margin: 0;
+  padding: 0;*/
+}
+
+/*HEADER****************************************************************************************************************/
+body, html {
+  font-family: 'Inconsolata', monospace;
+  background-image: url('/Users/Dev./Desktop/Git/Portfolio/Public/wg_various_paper_textures_9.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  padding-bottom: 5rem;
+}
+
+header nav {
+  color: white;
+  text-align: right;
+  margin-right: 3em;
+  font-size: 130%;
+}
+
+.class-hyperlink {
+  color: black;
+  text-decoration: none;
+}
+
+#big-banner {
+  background: url('/Users/Dev./Desktop/Git/Portfolio/Public/Coffee.jpeg');
+  background-size: cover;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: none;
+  margin: none;
+}
+#big-banner h1 {
+  font-size: 500%;
+  font-family: 'Pacifico', cursive;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+/*LIKS****************************************************************************************************************/
+.social-links {
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+.git-link {
+  color: black;
+  padding: 2em;
+}
+.linkedin-link {
+  color: black;
+  padding: 2em;
+}
+.twitter-link {
+  color: black;
+  padding: 2em;
+  padding-right: 1.5em;
+}
+.social-links {
+  display:block;
+  border-bottom:0.2em solid black;
+  border-radius: 40%;
+}
+/*MAIN-CONTENT****************************************************************************************************************/
+.main-content {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0rem;
+  padding-top: 4rem;
+  align-items: center;
+}
+/*PROFILE PIC****************************************************************************************************************/
+.portfolio-picture {
+  border-radius: 50%;
+  border: solid black .40rem;
+  padding-bottom: 0rem;
+  width: 20em;
+}
+/*WORK****************************************************************************************************************/
+.work-location {
+  text-align: center;
+}
+.work-heading {
+  color: black;
+  font-size: 300%;
+  text-align: center;
+}
+#gear-gui{
+  color: #0D47A1;
+}
+.work-paragraph {
+  color: black;
+  font-size: 1.5em;
+  border: none;
+}
+/*LANGUAGE****************************************************************************************************************/
+.language-location {
+  text-align: center;
+}
+.language-heading {
+  color: black;
+  font-size: 300%;
+
+}
+#language-gui {
+  color: #0D47A1;
+}
+.language-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  padding-top: 1rem;
+  border: none;
+}
+#css-img {
+  height: auto;
+  width: 30%;
+  padding-bottom: 2em;
+}
+
+#ruby-img {
+  height: auto;
+  width: 40%;
+  padding-bottom: 2em;
+
+}
+#html-img {
+  height: auto;
+  width: 40%;
+  padding-bottom: 2em;
+}
+/*ABOUT****************************************************************************************************************/
+.about-location {
+  text-align: center;
+}
+.about-heading {
+  color: black;
+  font-size: 300%;
+  text-align: center;
+}
+#user-gui{
+  color: #0D47A1;
+}
+.about-paragraph {
+  color: black;
+  font-size: 1.5em;
+  padding: 1em;
+  border: none;
+}
+/*PROJECTS****************************************************************************************************************/
+.projects-heading {
+  text-align: center;
+  /*padding: 1rem;*/
+  font-size: 300%;
+  color: black;
+}
+.projects-container {
+  border-top: solid black;
+  background: rgba(0, 0, 0, .3);
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+#project-gui {
+  color: black;
+
+
+}
+/*FOOTER****************************************************************************************************************/
+footer {
+  position: relative;
+  height: 10rem;
+  clear: both;
+  border-top: black solid;
+  visibility: 75%;
+}
+#contact-me {
+  padding-top: 2rem;
+  font-size: 140%;
+  text-align: center;
+}
+#phone {
+  font-size: 130%;
+  float: left;
+  padding: 3em;
+  margin-left:3em;
+}
+#email {
+  font-size: 130%;
+  float: right;
+  padding: 3em;
+  margin-right: 3em;
+}
