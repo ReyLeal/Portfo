@@ -172,7 +172,21 @@ header nav {
   background: rgba(0, 0, 0, .3);
   padding-top: 2rem;
 }
-.gui-hyperlink {
+#gui-hyperlink1 {
+  padding-right: 3rem;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+#gui-hyperlink2 {
+  padding-right: 3rem;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+#gui-hyperlink3 {
   padding-right: 3rem;
   color: black;
   margin-left: auto;
